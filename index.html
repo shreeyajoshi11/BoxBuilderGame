@@ -1,0 +1,38 @@
+<DOCTYPE html>
+    <html lang="en">
+     <head> 
+         
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <head>
+            <title>Game</title>
+        <meta charset="utf-8">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style media = "screen">
+            canvas{
+                border: 1px solid #000;
+                background: rgb(253, 243, 239);
+            }
+        </style>
+     </head>
+     <body>
+         <header>
+             <h1>Box The Builder</h1>
+             <h2>First player to build 8 boxes or more wins the game!</h2>
+        </header>
+         <div class="canvas-box">
+                <canvas id = "canvas_1" width="400px" height="400px">
+                </canvas>
+            </div>
+            
+                <div class="player-0-score-board">
+                    <div class="player-name-0" id="name-0">Player 1</div>
+                    <div class="player-score-0" id="score-0">0</div>
+                    </div>
+                
+                    <div class="player-1-score-board">
+                        <div class="player-name-1" id="name-1">Player 2</div>
+                        <div class="player-score-1" id="score-1">0</div>
+                     </div>
+        <script src = "game1.js"></script>
+     </body>
+</html>
